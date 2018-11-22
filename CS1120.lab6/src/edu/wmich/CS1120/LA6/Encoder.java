@@ -35,7 +35,7 @@ public class Encoder implements IEncoder{
 		//System.out.println(count);
 		Random rand = new Random();
 		int n = 0;
-		
+		System.out.println("Now encoding the file...");
 		try {
 			FileOutputStream toFile = new FileOutputStream(outputFilePath, true);
 			DataOutputStream output = new DataOutputStream(toFile);
@@ -63,5 +63,6 @@ public class Encoder implements IEncoder{
 			
 			System.out.println("Error: problem with the encoder");
 		}
+		System.out.println("Done.");
 	}
 }
