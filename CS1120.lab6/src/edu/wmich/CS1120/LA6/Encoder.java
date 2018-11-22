@@ -42,7 +42,7 @@ public class Encoder implements IEncoder{
 			
 			for(int i = 0; i < fileRead.length(); i ++) {
 				
-				n = rand.nextInt(20);	
+				n = rand.nextInt(20) + 1;	
 				String a = "";
 				a = a + fileRead.charAt(i);
 				int h = a.codePointAt(0);
