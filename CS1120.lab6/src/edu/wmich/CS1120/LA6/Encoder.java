@@ -60,7 +60,7 @@ public class Encoder implements IEncoder{
 			System.out.println("Error: Output file not found in Encoder");
 		}
 		catch (IOException e) {
-			
+			 
 			System.out.println("Error: problem with the encoder");
 		}
 		System.out.println("Done.");
